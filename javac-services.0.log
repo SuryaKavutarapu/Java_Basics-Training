@@ -1,9 +1,28 @@
-INFO	?	main	2016-11-29T04:51:09.220Z	org.javacs.JavaLanguageServer#doLint	Lint [c:\Surya\OOPS\SetterAndGetterMethods.java, c:\Surya\OOPS\StaticBlock.java, c:\Surya\OOPS\Inheritance\InheritanceExample.java]
-INFO	?	main	2016-11-29T04:51:11.338Z	org.javacs.JavaLanguageServer#doLint	Lint [c:\Surya\OOPS\SetterAndGetterMethods.java, c:\Surya\OOPS\StaticBlock.java, c:\Surya\OOPS\Inheritance\InheritanceExample.java]
-INFO	?	main	2016-11-29T04:51:13.239Z	org.javacs.JavaLanguageServer#doLint	Lint [c:\Surya\OOPS\SetterAndGetterMethods.java, c:\Surya\OOPS\StaticBlock.java, c:\Surya\OOPS\Inheritance\InheritanceExample.java]
-INFO	?	main	2016-11-29T04:51:19.683Z	org.javacs.JavaLanguageServer#doLint	Lint [c:\Surya\OOPS\SetterAndGetterMethods.java, c:\Surya\OOPS\StaticBlock.java, c:\Surya\OOPS\Inheritance\InheritanceExample.java]
-SEVERE	?	main	2016-11-29T04:51:40.335Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Surya\OOPS\StaticBlock.java
-org.javacs.NoJavaConfigException: Can't find configuration file for c:\Surya\OOPS\StaticBlock.java
+INFO	?	main	2016-11-29T06:30:24.781Z	org.javacs.JavaLanguageServer#doLint	Lint [c:\Surya\OOPS\StaticBlock.java, c:\Surya\OOPS\HAS-A_composition.java]
+SEVERE	?	main	2016-11-29T06:30:25.565Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Surya\OOPS\HAS-A_composition.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Surya\OOPS\HAS-A_composition.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:479)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:479)
+	at org.javacs.JavaLanguageServer.autocomplete(JavaLanguageServer.java:1057)
+	at org.javacs.JavaLanguageServer$1.completion(JavaLanguageServer.java:108)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:126)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:117)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:46)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:44)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+
+INFO	?	main	2016-11-29T06:30:26.899Z	org.javacs.JavaLanguageServer#doLint	Lint [c:\Surya\OOPS\StaticBlock.java, c:\Surya\OOPS\HAS-A_composition.java]
+SEVERE	?	main	2016-11-29T06:30:28.878Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Surya\OOPS\HAS-A_composition.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Surya\OOPS\HAS-A_composition.java
 	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:479)
 	at java.util.Optional.orElseThrow(Optional.java:290)
 	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:479)
