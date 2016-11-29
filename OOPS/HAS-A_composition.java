@@ -70,7 +70,7 @@ class B{
 }
 
 //main class 
-class HAS_A_composition {
+class Composition{
   public static void main(String []args){
       //creating object for b class
       B  b =  new B();
