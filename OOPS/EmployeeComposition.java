@@ -52,7 +52,7 @@ class EmployeeComposition{
     public static void main(String []args){
      
        Employee EC = new Employee();
-       EC.setEmployee("SuryaKavutarapu","ORITS-332",20000.00f);
+       EC.setEmployee("ORITS-332","Surya Kavutarapu",20000.00f);
        EC.address.setAddress("Andhra Paradesh","Vijayawada","India");
        System.out.println("===============================");
 
