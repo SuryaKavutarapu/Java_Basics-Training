@@ -10,7 +10,7 @@
         if we created A class before and we want to write another class B the features can be obtain from Class A
 
    2.Association with in the class is also named IS-A class type
-   3.parent to chaild relation
+   3.parent to child relation
 
 
      |  A class  |  ====>  |  B class |    ===> | C class |
