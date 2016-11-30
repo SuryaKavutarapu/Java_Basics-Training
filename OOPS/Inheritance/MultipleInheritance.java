@@ -3,6 +3,17 @@ class A{
         System.out.println("A class");
     }
 }//parent class 
+/*
+   
+   note : we cannot call child class methods in parent class
+
+   i.e: 
+     in void a(){
+        System.out.println("A class");
+
+        b(); calling B class methods is not possible
+    }
+ */
 
 class B extends A{
     void b(){
@@ -20,7 +31,7 @@ class C extends B{
 }//Child class to B
 
 class MultipleInheritance{
-    public static void main(String []args){
+    public static void main(String []args)throws Exception{
        C c = new C();
         c.c();//calling own method
     }
