@@ -71,7 +71,7 @@ class EmployeeComposition{
      
        Employee EC = new Employee();
        EC.setEmployee("ORITS-332","Surya Kavutarapu",20000.00f);
-       EC.address.setAddress("Andhra Paradesh","Vijayawada","India");
+       EC.address.setAddress("Andhra Pradesh","Vijayawada","India");
        System.out.println("===============================");
 
         System.out.println("Employee name: "+EC.getEname()+"\nEmployee ID: "+EC.getEid()+"\nEmployee salary: "+EC.getEsalary());
