@@ -11,7 +11,7 @@ class Company{
      this.Clocation =Clocation;
      //assigning values to corresponding variables
   }
-}/parent class
+}//parent class
 
 class Employee extends Company{
   protected String Ename;

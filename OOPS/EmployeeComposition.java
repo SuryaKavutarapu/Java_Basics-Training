@@ -24,7 +24,7 @@ class Address{
        return country;
        //returns country variable of type string
    }
-}
+}//address class
 
 class Employee{
     String Eid,Ename;
@@ -64,12 +64,13 @@ class Employee{
    public float getEsalary(){
        return Esalary;
    }
-}
+}//Employee class
 
 class EmployeeComposition{
     public static void main(String []args){
-     
+       //object creation for Employee class
        Employee EC = new Employee();
+
        EC.setEmployee("ORITS-332","Surya Kavutarapu",20000.00f);
        EC.address.setAddress("Andhra Pradesh","Vijayawada","India");
        System.out.println("===============================");
@@ -93,4 +94,4 @@ class EmployeeComposition{
        System.out.println("===============================");
        
     }
-}
+}//main class
