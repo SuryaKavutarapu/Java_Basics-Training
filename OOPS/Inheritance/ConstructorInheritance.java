@@ -22,11 +22,13 @@ class B extends A{
 
 class C extends B{
      public C(){
+        super(1000);
+        //calling parent class argument constructor 
         System.out.println("C class Constructor");
     }//default constructor
 
     public C(int x){//argumented constructor
-        super(1000);
+        this();
         System.out.println("C class Constructor with value of" +x);
     }
 }
@@ -36,7 +38,7 @@ class ConstructorInheritance{
     public static void main(String []args){
         C c;
         
-         c = new C();
+         //c = new C();
         //calling C class Empty parameter
 
         /**
@@ -46,7 +48,7 @@ class ConstructorInheritance{
                 B class Constructor
                 C class Constructor
          */
-        c = new C(100);
+        //c = new C(100);
         //calling C class arugumented type constructor
         /**
           output for argumented constructor calling of c class
