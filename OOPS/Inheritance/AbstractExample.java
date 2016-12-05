@@ -3,8 +3,12 @@ class AbstractExample{
         GometryFigure g;//parent class reference
         g = new Triangle();//child class object
         g.area(Integer.parseInt(args[0]),Integer.parseInt(args[1]));
+        System.out.println(g.length);
+        System.out.println(g.height);
         g = new Rectangle();//child class object
-        g.area(Integer.parseInt(args[2]),Integer.parseInt(args[3])); 
+        g.area(Integer.parseInt(args[2]),Integer.parseInt(args[3]));
+        System.out.println(g.length);
+        System.out.println(g.height);
     }
 }
 
@@ -19,6 +23,8 @@ abstract class GometryFigure{
 class Triangle extends GometryFigure{
 //implementation of abstract method in child class
   public void area(int length,int height){
+      this.length = length;
+      this.height = height;
       double area =  0.5 * (length * height);
       System.out.println("area of triangle "+area);
   }   
@@ -27,6 +33,8 @@ class Triangle extends GometryFigure{
 class Rectangle extends GometryFigure{
 //implementation of abstract method in child class
   public void area(int length,int height){
+      this.length = length;
+      this.height = height;
       int area =  (length * height);
       System.out.println("area of rectangle "+area);
   }   
