@@ -12,7 +12,6 @@ class AbstractExample{
     }
 }
 
-
 abstract class GometryFigure{
    int length,height;
    double area;
@@ -21,7 +20,7 @@ abstract class GometryFigure{
 }
 
 class Triangle extends GometryFigure{
-//implementation of abstract method in child class
+  //implementation of abstract method in child class
   public void area(int length,int height){
       this.length = length;
       this.height = height;
@@ -31,7 +30,7 @@ class Triangle extends GometryFigure{
 }
 
 class Rectangle extends GometryFigure{
-//implementation of abstract method in child class
+  //implementation of abstract method in child class
   public void area(int length,int height){
       this.length = length;
       this.height = height;

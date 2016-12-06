@@ -19,3 +19,4 @@ class Areas{
         System.out.println("area of square : "+ A.area(10)+"area of square : "+ A.area(20,30)+"area of square : "+ A.area(20.0f));
     }
 }
+ 

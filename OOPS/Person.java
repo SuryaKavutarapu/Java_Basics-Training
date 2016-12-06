@@ -9,3 +9,4 @@ class Employee{
         System.out.println("Employee name"+E.Ename+"\nEmployee ID"+E.Eid+"\nEmployee Salary"+E.Esalary);
     }
 }
+ 
