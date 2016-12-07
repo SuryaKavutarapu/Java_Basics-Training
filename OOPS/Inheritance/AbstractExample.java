@@ -38,3 +38,4 @@ class Rectangle extends GometryFigure{
       System.out.println("area of rectangle "+area);
   }   
 }
+

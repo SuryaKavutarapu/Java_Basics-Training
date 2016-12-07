@@ -30,9 +30,12 @@ abstract class A{
 
     
 }//abstract class has no objects
-
+ class Surya{
+     public static void main(String []args){
+     
+     }/*method main*/
+ }/*class surya*/
 class B extends A{
-    
     /**
      * z = 200;
      * 

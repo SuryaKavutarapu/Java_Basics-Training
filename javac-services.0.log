@@ -1,5 +1,5 @@
-SEVERE	?	main	2016-12-06T05:30:10.477Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Surya\OOPS\Inheritance\AbstractConstructorInheritance.java
-org.javacs.NoJavaConfigException: Can't find configuration file for c:\Surya\OOPS\Inheritance\AbstractConstructorInheritance.java
+SEVERE	?	main	2016-12-07T05:38:51.495Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Surya\OOPS\snippettesting\testing.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Surya\OOPS\snippettesting\testing.java
 	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:479)
 	at java.util.Optional.orElseThrow(Optional.java:290)
 	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:479)
@@ -19,8 +19,8 @@ org.javacs.NoJavaConfigException: Can't find configuration file for c:\Surya\OOP
 	at org.javacs.Main.run(Main.java:150)
 	at org.javacs.Main.main(Main.java:69)
 
-SEVERE	?	main	2016-12-06T05:30:11.624Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Surya\OOPS\Inheritance\AbstractConstructorInheritance.java
-org.javacs.NoJavaConfigException: Can't find configuration file for c:\Surya\OOPS\Inheritance\AbstractConstructorInheritance.java
+SEVERE	?	main	2016-12-07T05:38:51.521Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Surya\OOPS\snippettesting\testing.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Surya\OOPS\snippettesting\testing.java
 	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:479)
 	at java.util.Optional.orElseThrow(Optional.java:290)
 	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:479)
