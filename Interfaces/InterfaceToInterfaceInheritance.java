@@ -12,6 +12,13 @@ class A{
    public A(){
        System.out.println("A class Constructor");
    }
+  
+
+   public void display(){
+     System.out.println("this is an A class Method");
+    }/*method display*/
+   
+
    //parent class to B class
 }/*class A*/
 
@@ -40,6 +47,7 @@ class B extends A implements Interface2{
    public void methodTwo(){
        System.out.println("interface methodTwo implemented");
    }
+  
 }/*class B */
 
 class InterfaceToInterfaceInheritance{
@@ -50,6 +58,7 @@ class InterfaceToInterfaceInheritance{
         System.out.println(I2);
         I2.methodOne();//calling method two from class a
         I2.methodTwo();//calling method two from class b
-        
+        A a = new B();
+        a.display();
     }/*method main programm execution starts from here*/
 }/*class InterfaceToInterfaceInheritance */
