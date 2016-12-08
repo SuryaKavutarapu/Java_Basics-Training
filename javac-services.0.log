@@ -1,5 +1,5 @@
-SEVERE	?	main	2016-12-07T06:46:19.450Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Surya\Design patterns\SingleTonDesign.java
-org.javacs.NoJavaConfigException: Can't find configuration file for c:\Surya\Design patterns\SingleTonDesign.java
+SEVERE	?	main	2016-12-08T05:17:53.848Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Surya\NestedClasses\AnonymousInnerClasses.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Surya\NestedClasses\AnonymousInnerClasses.java
 	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:479)
 	at java.util.Optional.orElseThrow(Optional.java:290)
 	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:479)
@@ -19,8 +19,8 @@ org.javacs.NoJavaConfigException: Can't find configuration file for c:\Surya\Des
 	at org.javacs.Main.run(Main.java:150)
 	at org.javacs.Main.main(Main.java:69)
 
-SEVERE	?	main	2016-12-07T06:46:20.072Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Surya\Design patterns\SingleTonDesign.java
-org.javacs.NoJavaConfigException: Can't find configuration file for c:\Surya\Design patterns\SingleTonDesign.java
+SEVERE	?	main	2016-12-08T05:17:54.554Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Surya\NestedClasses\AnonymousInnerClasses.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Surya\NestedClasses\AnonymousInnerClasses.java
 	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:479)
 	at java.util.Optional.orElseThrow(Optional.java:290)
 	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:479)

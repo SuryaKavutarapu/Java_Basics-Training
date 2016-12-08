@@ -7,7 +7,7 @@
 abstract class A{
     int x;
     
-   final int z;//defining constant in java we have to declare class with Final keyword 
+   final int z = 100;//defining constant in java we have to declare class with Final keyword 
    // final variables cannnot be overrided
 
    public A(){
@@ -24,17 +24,12 @@ abstract class A{
      }
 
       public final void input(){
-          z = 100;
           System.out.println(z);
       }//final method cannot be overrided
 
     
 }//abstract class has no objects
- class Surya{
-     public static void main(String []args){
-     
-     }/*method main*/
- }/*class surya*/
+ 
 class B extends A{
     /**
      * z = 200;
@@ -96,7 +91,7 @@ class AbstractConstructorInheritance{
         System.out.println("========================");
         obj = new B();//assigning child class object to reference variable
         obj.display();
-   
+        obj.input();
     }
 }
 
