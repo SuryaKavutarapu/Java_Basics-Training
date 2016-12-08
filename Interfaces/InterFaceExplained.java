@@ -27,3 +27,15 @@ class InterfaceClass{
        IE.show();
     }/*method main  programm execution starts from here*/
 }
+
+
+/**
+ * ## Note:
+ * 
+ * 1.If a class implememts some Interface that class should provide functionality for all the methods on that interface
+ * 
+ * 2.In case we does  not  provide that implementation in child class then that child class should also declared as abstract class
+ * 
+ * 
+ * 
+ */
