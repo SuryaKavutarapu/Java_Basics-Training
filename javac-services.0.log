@@ -1,16 +1,13 @@
-SEVERE	?	main	2016-12-08T09:12:15.603Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Surya\Interfaces\InterfaceIheritance.java
-org.javacs.NoJavaConfigException: Can't find configuration file for c:\Surya\Interfaces\InterfaceIheritance.java
+INFO	?	main	2016-12-12T05:28:25.598Z	org.javacs.JavaLanguageServer#doLint	Lint [c:\Surya\Interfaces\EmployeeInterface.java]
+SEVERE	?	main	2016-12-12T05:28:26.674Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Surya\Interfaces\markedinterface.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Surya\Interfaces\markedinterface.java
 	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:479)
 	at java.util.Optional.orElseThrow(Optional.java:290)
 	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:479)
-	at org.javacs.JavaLanguageServer.findTree(JavaLanguageServer.java:809)
-	at org.javacs.JavaLanguageServer.lambda$doHover$34(JavaLanguageServer.java:983)
-	at java.util.Optional.ifPresent(Optional.java:159)
-	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:982)
-	at org.javacs.JavaLanguageServer.access$000(JavaLanguageServer.java:31)
-	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:118)
-	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:130)
-	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:117)
+	at org.javacs.JavaLanguageServer.access$600(JavaLanguageServer.java:31)
+	at org.javacs.JavaLanguageServer$1.didClose(JavaLanguageServer.java:227)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:202)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
 	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
 	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
 	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
@@ -23,19 +20,15 @@ org.javacs.NoJavaConfigException: Can't find configuration file for c:\Surya\Int
 	at org.javacs.Main.run(Main.java:150)
 	at org.javacs.Main.main(Main.java:69)
 
-SEVERE	?	main	2016-12-08T09:12:16.435Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Surya\Interfaces\InterfaceIheritance.java
-org.javacs.NoJavaConfigException: Can't find configuration file for c:\Surya\Interfaces\InterfaceIheritance.java
+SEVERE	?	main	2016-12-12T05:28:31.605Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Surya\Interfaces\EmployeeInterface.java
+org.javacs.NoJavaConfigException: Can't find configuration file for c:\Surya\Interfaces\EmployeeInterface.java
 	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:479)
 	at java.util.Optional.orElseThrow(Optional.java:290)
 	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:479)
-	at org.javacs.JavaLanguageServer.findTree(JavaLanguageServer.java:809)
-	at org.javacs.JavaLanguageServer.lambda$doHover$34(JavaLanguageServer.java:983)
-	at java.util.Optional.ifPresent(Optional.java:159)
-	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:982)
-	at org.javacs.JavaLanguageServer.access$000(JavaLanguageServer.java:31)
-	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:118)
-	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:130)
-	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:117)
+	at org.javacs.JavaLanguageServer.access$600(JavaLanguageServer.java:31)
+	at org.javacs.JavaLanguageServer$1.didClose(JavaLanguageServer.java:227)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:202)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
 	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
 	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
 	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)

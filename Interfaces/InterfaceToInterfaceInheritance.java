@@ -47,7 +47,7 @@ class B extends A implements Interface2{
    public void methodTwo(){
        System.out.println("interface methodTwo implemented");
    }
-  
+ 
 }/*class B */
 
 class InterfaceToInterfaceInheritance{
@@ -57,8 +57,9 @@ class InterfaceToInterfaceInheritance{
         Interface2 I2 = new B();//creating object for b class
         System.out.println(I2);
         I2.methodOne();//calling method two from class a
-        I2.methodTwo();//calling method two from class b
-        A a = new B();
-        a.display();
+        I2.methodTwo();//calling method two from class b 
+        // I2.display();
+        // A a = new B();
+        // a.display();
     }/*method main programm execution starts from here*/
 }/*class InterfaceToInterfaceInheritance */
