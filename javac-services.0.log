@@ -1,43 +1,4 @@
-INFO	?	main	2016-12-12T05:28:25.598Z	org.javacs.JavaLanguageServer#doLint	Lint [c:\Surya\Interfaces\EmployeeInterface.java]
-SEVERE	?	main	2016-12-12T05:28:26.674Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Surya\Interfaces\markedinterface.java
-org.javacs.NoJavaConfigException: Can't find configuration file for c:\Surya\Interfaces\markedinterface.java
-	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:479)
-	at java.util.Optional.orElseThrow(Optional.java:290)
-	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:479)
-	at org.javacs.JavaLanguageServer.access$600(JavaLanguageServer.java:31)
-	at org.javacs.JavaLanguageServer$1.didClose(JavaLanguageServer.java:227)
-	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:202)
-	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
-	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
-	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
-	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
-	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
-	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:46)
-	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:44)
-	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
-	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
-	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
-	at org.javacs.Main.run(Main.java:150)
-	at org.javacs.Main.main(Main.java:69)
-
-SEVERE	?	main	2016-12-12T05:28:31.605Z	org.javacs.Main$4#onError	Can't find configuration file for c:\Surya\Interfaces\EmployeeInterface.java
-org.javacs.NoJavaConfigException: Can't find configuration file for c:\Surya\Interfaces\EmployeeInterface.java
-	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:479)
-	at java.util.Optional.orElseThrow(Optional.java:290)
-	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:479)
-	at org.javacs.JavaLanguageServer.access$600(JavaLanguageServer.java:31)
-	at org.javacs.JavaLanguageServer$1.didClose(JavaLanguageServer.java:227)
-	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:202)
-	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
-	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
-	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
-	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
-	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
-	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:46)
-	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:44)
-	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
-	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
-	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
-	at org.javacs.Main.run(Main.java:150)
-	at org.javacs.Main.main(Main.java:69)
-
+INFO	?	main	2016-12-13T04:39:59.794Z	org.javacs.Main#connectToNode	Connected to parent using socket on port 55282
+INFO	?	main	2016-12-13T04:40:00.638Z	org.javacs.JavaLanguageServer#doLint	Lint [c:\Surya\Packages\PackageInheritance.java]
+INFO	?	main	2016-12-13T04:40:52.213Z	org.javacs.JavaLanguageServer#doLint	Lint [c:\Surya\Packages\Package1Class.java]
+INFO	?	main	2016-12-13T04:40:53.056Z	org.javacs.JavaLanguageServer#doLint	Lint [c:\Surya\Packages\package2Class.java]
